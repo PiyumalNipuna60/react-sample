@@ -10,6 +10,11 @@ const arr=["Apple","Mango","Orange'"]
   const getFullName=(f,l) =>{
     return `${f} ${l}`;
   }
+
+  const obj={
+    fName:"Kamal",
+    age:"24"
+  }
   
   return (
     <div className="heading cont">
@@ -19,6 +24,8 @@ const arr=["Apple","Mango","Orange'"]
       <p>full name (function): {getFullName(fName,lName)}</p>
       <p>Contry : {contry}</p>
       <p>{fName} like to eat  {arr[0]}</p>
+
+      <p style={{color:"black"}}>my frend {obj.fName} age is {obj.age}</p>
     </div>
   );
 }
