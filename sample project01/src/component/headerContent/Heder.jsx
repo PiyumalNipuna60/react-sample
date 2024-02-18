@@ -1,14 +1,14 @@
 import MenuLink from "../MenuLink/MenuLink"
-import logo from "../../assets/images.png"
+import logo from "../../assets/react.svg"
 import "./Header.css"
 
 
 function Heder() {
   return (
     <div className="heading">
-       <a className="image">
+       <img src="vite.svg" alt="logo" />
        <img src={logo} alt="logo" />
-       </a>
+       
       <MenuLink linkName="Home" url="#home"/>
       <MenuLink linkName="About" url="#about"/>
       <MenuLink linkName="Contact" url="#contact"/>
