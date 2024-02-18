@@ -1,0 +1,12 @@
+
+.heading{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image>img{
+  margin-left: -10%;
+  width: 20%;
+  height: 30%;
+}

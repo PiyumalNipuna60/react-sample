@@ -2,7 +2,7 @@
 function Footer() {
   return (
     <div className="footer">
-      <h1>hellow</h1>
+      <h1>footer Content</h1>
     
     </div>
   )
