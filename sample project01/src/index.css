@@ -5,13 +5,16 @@
 }
 
 .heading{
-  color: red;
+  background-color: rgb(169, 39, 39);
+  min-height: 20vh;
 }
 
-.cont{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
+.body{
+  background-color: rgb(196, 139, 34);
+  min-height: 60vh;
+}
+
+.footer{
+  background-color: rgb(214, 80, 80);
+  min-height: 20vh;
 }
